@@ -1,3 +1,5 @@
+#code by top
+
 def numone():
     a=str(input("INPUT PLS  \n"))
     b=0
