@@ -64,6 +64,7 @@ def numone():
         e+= d
         b+=1
     print(e)
+    y=input()
 
 def numtwo():
     a=str(input("INPUT CODE PLS  \n"))
@@ -139,6 +140,9 @@ def numtwo():
             c+=2
     print("\n")
     print(e)
+    y=input()
+
+
 print("Only input lower case letters. Leave one space gap between each letter and a ( / ) unit between each word. Don't input punctuation or dots along the text.All these things if not followed can cause errors \n \n")
 print("Input 1 for text to morse and input 2 for morse to text :- ")
 z=int(input())
