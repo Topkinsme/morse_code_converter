@@ -58,6 +58,26 @@ def numone():
             morse="-.--"
         elif inpute[count] =="z":
             morse="--.."
+        elif inpute[count] =="1":
+            morse=".----"
+        elif inpute[count] =="2":
+            morse="..---"
+        elif inpute[count] =="3":
+            morse="...--"
+        elif inpute[count] =="4":
+            morse="....-"
+        elif inpute[count] =="5":
+            morse="....."
+        elif inpute[count] =="6":
+            morse="-...."
+        elif inpute[count] =="7":
+            morse="--..."
+        elif inpute[count] =="8":
+            morse="---.."
+        elif inpute[count] =="9":
+            morse="----."
+        elif inpute[count] =="0":
+            morse="-----"
         elif inpute[count] ==" ":
             morse="/"
         else:
@@ -133,6 +153,26 @@ def numtwo():
                 text="y"
             elif partinput =="--..":
                 text="z"
+            elif partinput ==".----":
+                text="1"
+            elif partinput =="..---":
+                text="2"
+            elif partinput =="...--":
+                text="3"
+            elif partinput =="....-":
+                text="4"
+            elif partinput ==".....":
+                text="5"
+            elif partinput =="-....":
+                text="6"
+            elif partinput =="--...":
+                text="7"
+            elif partinput =="---..":
+                text="8"
+            elif partinput =="----.":
+                text="9"
+            elif partinput =="-----":
+                text="0"
             elif partinput=="/":
                 text=" "
             else:
